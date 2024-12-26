@@ -28,9 +28,9 @@ function handleService() {
     const overlay = document.querySelector(".overlay");
     const service = document.querySelector(".service");
     const images = [
-        "/assets/imgs/service-1.jpg",
-        "/assets/imgs/service-2.jpg",
-        "/assets/imgs/service-3.jpg",
+        "./assets/imgs/service-1.jpg",
+        "./assets/imgs/service-2.jpg",
+        "./assets/imgs/service-3.jpg",
     ];
 
     let currentIndex = 0;
@@ -55,19 +55,19 @@ function handleService() {
         const circle1 = document.querySelector(".circle_1");
         const content = document.querySelector(".content_sub");
         setTimeout(() => {
-            if (serviceImg && serviceImg.src.includes("/assets/imgs/service-1.jpg")) {
+            if (serviceImg && serviceImg.src.includes("./assets/imgs/service-1.jpg")) {
                 circle3.classList.add("active");
                 content.textContent = "Cung cấp giải pháp về hậu cần";
             } else {
                 circle3.classList.remove("active");
             }
-            if (serviceImg && serviceImg.src.includes("/assets/imgs/service-3.jpg")) {
+            if (serviceImg && serviceImg.src.includes("./assets/imgs/service-3.jpg")) {
                 circle2.classList.add("active");
                 content.textContent = "Giải pháp hàng hóa quốc tế";
             } else {
                 circle2.classList.remove("active");
             }
-            if (serviceImg && serviceImg.src.includes("/assets/imgs/service-2.jpg")) {
+            if (serviceImg && serviceImg.src.includes("./assets/imgs/service-2.jpg")) {
                 circle1.classList.add("active");
                 content.textContent = "Outsourecing hàng hóa";
             } else {
