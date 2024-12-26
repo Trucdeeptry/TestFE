@@ -7,6 +7,10 @@
     .column-2 {
         margin-right: -250px;
     }
+    /* header section */
+    .header_nav{
+        gap: 12px;
+    }
     /* about section */
     .about_infomation {
         margin: 0px;
