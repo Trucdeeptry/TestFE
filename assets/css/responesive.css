@@ -1,0 +1,229 @@
+/* Tablet reponsive */
+@media ((min-width: 768px) and (max-width: 1280px)) {
+    /* landing section */
+    .landing_header {
+        padding: 12px 40px;
+    }
+    .column-2 {
+        margin-right: -250px;
+    }
+    /* about section */
+    .about_infomation {
+        margin: 0px;
+    }
+    .map_img {
+        width: 400px;
+    }
+    /* service section */
+    .service_side {
+        width: 150px;
+    }
+    /* reason section */
+    .partner_wrapper {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .partner_img {
+        width: 350px;
+    }
+    /* rate section */
+    .rate {
+        padding: 50px 100px;
+    }
+    /* news section */
+    .news_content {
+        gap: 30px;
+    }
+    .news {
+        padding: 50px 100px;
+    }
+    .news_child {
+        width: 400px !important;
+    }
+    .content_right {
+        height: 550px;
+    }
+    /* footer section */
+    .footer {
+        padding: 50px 20px;
+    }
+    .info_child {
+        margin-left: 20px !important;
+        height: 400px;
+    }
+    .info_email {
+        justify-content: start;
+    }
+
+    .info_maininfo {
+        width: 250px;
+    }
+}
+
+/* Mobile Reponsive */
+@media (max-width: 768px) {
+    /* header section */
+    .landing_header {
+        padding: 10px;
+    }
+    .header_nav {
+        flex-direction: column;
+    }
+    .child-ul {
+        top: 100%;
+        left: -100%;
+    }
+    /* landing section */
+
+    .partner_wrapper {
+        padding: 0;
+    }
+    
+    .content {
+        padding: 0 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .column_wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .column-1 {
+        scale: 0.8;
+    }
+    .column-2 {
+        scale: 0.8;
+    }
+    .c2_img-wrapper {
+        margin-right: -550px;
+    }
+
+    /* about section */
+    .about {
+        flex-direction: column;
+    }
+    .about_infomation {
+        margin: 0;
+        padding: 20px;
+    }
+    .info_analytics {
+        transform: scale(0.7);
+        margin-left: -20px;
+    }
+    .info_sub {
+        margin: 20px 0;
+    }
+    .primary_button{
+        margin: auto;
+    }
+    .about_map{
+        padding: 20px;
+    }
+    .map_img{
+        width: 300px;
+    }
+
+    /* service section */
+
+    .service{
+        padding: 20px
+    }
+    .service_content{
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        
+    }
+    .content_circle1{
+        scale: 0.6;
+    }
+    .content_sub {
+        text-align: center;
+        margin-bottom: -70px;
+    }
+    .service_button {
+        margin-top: -70px;
+    }
+    /* partner */
+    .partner{
+            padding: 40px 20px;
+    }
+    .partner_content{
+        margin: 0;
+        width: 100%;
+    }
+    .partner_img{
+        width: 300px;
+    }
+    .partner_wrapper{
+        flex-direction: column;
+    }
+    .partner_img-wrapper {
+        bottom: -100px;
+        margin: auto;
+        width: 100%;
+        margin-left: 38px;
+        gap: 0;
+        height: 300px;
+    }
+    .scroll_logo{
+        margin-bottom: 0;
+    }
+    /* rate section */
+    .rate{
+        padding: 40px 20px;
+    }
+    .rate_message-wrapper{
+        flex-direction: column;
+    }
+    /* news section */
+    .news_header{
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .news{
+        padding: 40px 20px;
+    }
+    .news_nav{
+        flex-direction: row;
+        gap: 5px;
+    }
+    .nav_seeall{
+        margin-right: 15px;
+    }
+    .news_button{
+        margin-top: 10px;
+        width: 40px;
+    }
+    .news_content{
+        flex-direction: column;
+        gap: 28px;
+    }
+    .news_child{
+        width: 300px !important;
+    }
+    /* footer */
+    .footer{
+        padding: 60px 40px;
+    }
+    .footer_info{
+        flex-direction: column;
+    }
+    .info_maininfo{
+        width: 250px;
+    }
+    .info_email{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .info_child{
+        margin: 0 !important;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+ 
+    .info_list_child_contact{
+        justify-content: center;
+    }
+}
