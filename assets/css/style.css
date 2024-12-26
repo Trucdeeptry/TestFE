@@ -1,10 +1,10 @@
 /* landing section */
-    .landing {
-        overflow: hidden;
-        position: relative;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("../../assets/imgs/backgroundLanding.png");
+.landing {
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/imgs/backgroundLanding.png");
 }
 .landing::before {
     width: 100%;
@@ -29,6 +29,8 @@
 .header_nav {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 .header_nav li {
@@ -115,7 +117,7 @@
     position: relative;
     padding: 0 120px;
     padding-top: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     z-index: 1;
 }
 .column_wrapper {
@@ -221,6 +223,7 @@
 }
 .about_infomation {
     padding: 50px;
+    padding-bottom: 100px;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -585,16 +588,13 @@
     font-size: 30px;
     text-transform: uppercase;
 }
-.header_nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-}
+
 .nav_seeall {
     color: black;
 }
-
+.news_nav{
+    gap: 14px !important;
+}
 .news_content {
     display: flex;
     align-items: center;
@@ -663,61 +663,60 @@
 }
 
 /* footer section */
-.footer{
+.footer {
     padding: 100px 150px;
 }
-.footer_info{
+.footer_info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.info_img{
+.info_img {
     width: 60px;
 }
-.info_maininfo{
+.info_maininfo {
     width: 550px;
 }
-.info_sub{
+.info_sub {
     font-size: 20px;
     text-align: justify;
-    margin: 40px 0 ;
+    margin: 40px 0;
 }
-.info_register{
+.info_register {
     font-size: 20px;
     font-weight: 700;
-    margin:16px 0;
+    margin: 16px 0;
 }
-.email_input{
+.email_input {
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     padding: 10px 0;
 }
-.info_email_input{
+.info_email_input {
     margin: 0 5px;
     border: none;
-  
+
     font-size: 18px;
 }
-.info_email_input::placeholder{
+.info_email_input::placeholder {
     color: black;
-  
 }
-.email_icon{
+.email_icon {
     width: 25px;
 }
-.info_email{
+.info_email {
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 6px;
 }
-.button_sub{
+.button_sub {
     font-weight: 700;
 }
-.info_button{
+.info_button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -725,81 +724,79 @@
     border-radius: 30px;
     color: white;
     border: none;
-    background-color: #F14B23;
+    background-color: #f14b23;
     cursor: pointer;
 }
-.button_icon{
+.button_icon {
     width: 20px;
     margin: 0 6px;
 }
-.info_list{
+.info_list {
     list-style: none;
 }
 .info_list_child h1 {
     font-size: 22px;
 }
-.info_child{
+.info_child {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: start;
-   height: 300px;
+    height: 300px;
 }
-.info_list_child{
+.info_list_child {
     margin: 20px 0;
     font-size: 20px;
 }
-.info_list_child_contact{
+.info_list_child_contact {
     display: flex;
     align-items: center;
     justify-content: start;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.info_contact{
+.info_contact {
     display: flex;
     flex-direction: column;
     font-size: 20px;
     justify-content: center;
-    
-
 }
-.contact_hightlight{
+.contact_hightlight {
     font-weight: 700;
 }
-.info_icon{
+.info_icon {
     width: 28px;
     height: 28px;
     margin-right: 16px;
 }
 
-.footer_end{
-    border-top: 1px solid #9CA1AB;
+.footer_end {
+    border-top: 1px solid #9ca1ab;
     padding: 10px 0;
     margin: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.end_social{
+.end_social {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.social_icon{
+.social_icon {
     cursor: pointer;
     width: 35px;
     height: 35px;
 }
 /* button back */
-.body_button{
+.body_button {
     position: absolute;
     transform: rotate(-80deg);
-    filter:  drop-shadow(0px 4px 4px rgba(241, 75, 35, 0.3));
+    filter: drop-shadow(0px 4px 4px rgba(241, 75, 35, 0.3));
     right: 30px;
-    bottom: 140px;   
+    bottom: 140px;
 }
-.body_button:hover{
+.body_button:hover {
     transform: rotate(-40deg);
 }
